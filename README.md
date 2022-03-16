@@ -2,16 +2,18 @@
 
 ## Linear Regression to Predict MPG
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+<p>Among our independent variables the t value tells us that car length and ground clearance are providing a non-random amount of variance to the MPG. The larger the t value, the more likely that the coefficient is non-zero.</p>
+
+<p>The slope of this regression model is not zero. In order for the slope of this model to be zero, either the dependent or independent variable would have to be static. Meaning that as one value changed, the other axis did not. For example, if the MPG was always 35 as the length or ground clearance changed, that would create a zero slope.</p>
+
+<p>I don't think this model is accurately predicting the MPG for MechaCar prototypes, as the residual standard error is more than 8 MPG. Meaning the predicted MPG is from -8 to +8 off of the actual MPG.</p>
 
 <img src="Images/MechaCar_LM_Summary.png" width="373" />
 
 
 ## Summary Statistics on Suspension Coils
 
--The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? 
+<p>Looking at the suspension coil results, we can see that overall the variance is well within the limit of 100 PSI. However, when we look at individual lots, we see that Lot 3 is actually over the variance limit by quite a bit.</p>
 
 <img src="Images/total_summary.png" width="280" />
 <img src="Images/lot_summary.png" width="426" />
