@@ -26,8 +26,8 @@
 
 ## Study Design: MechaCar vs Competition
 
-Consumers are looking for the best value when buying a car. A lot of factors play into that decision, but two of key concern are the cost and fuel efficiency. We can compare MechaCar against the current top 10 selling car models that use the same fuel (i.e. electric or standard gasoline). This will show us how MechaCar's cost vs fuel efficiency compares to other top car brands.
+<p>Consumers are looking for the best value when buying a car. A lot of factors play into that decision, but two of key concern are the cost and fuel efficiency. We can compare MechaCar against the current top 10 selling car models that use the same fuel (i.e. electric or standard gasoline). This will show us how MechaCar's cost vs fuel efficiency compares to other top car brands, and if there is any correlation between cost and fuel efficiency.</p>
 
-The data needed for this analysis will be car make, model, cost, and overall MPG. We can then run a regression test on cost and MPG across the car models to find out how much MPG is gained as the cost of the vehicle rises.
+<p>The data needed for this analysis will be car make, model, cost, and overall MPG. We can then run a regression test on cost and MPG across the car models to find out how much MPG is gained as the cost of the vehicle rises.</p>
 
-Our null hypothesis for this analyis is "There is no predictable correlation between cost and fuel efficiency".
+<p>Our null hypothesis for this analyis is "There is no predictable correlation between cost and fuel efficiency".</p>
