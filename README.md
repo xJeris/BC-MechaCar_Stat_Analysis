@@ -15,3 +15,17 @@
 
 <img src="Images/total_summary.png" width="280" />
 <img src="Images/lot_summary.png" width="426" />
+
+
+## T-Tests on Suspension Coils
+
+- briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+
+## Study Design: MechaCar vs Competition
+
+Consumers are looking for the best value when buying a car. A lot of factors play into that decision, but two of key concern are the cost and fuel efficiency. We can compare MechaCar against the current top 10 selling car models that use the same fuel (i.e. electric or standard gasoline). This will show us how MechaCar's cost vs fuel efficiency compares to other top car brands.
+
+The data needed for this analysis will be car make, model, cost, and overall MPG. We can then run a regression test on cost and MPG across the car models to find out how much MPG is gained as the cost of the vehicle rises.
+
+Our null hypothesis for this analyis is "There is no predictable correlation between cost and fuel efficiency".
