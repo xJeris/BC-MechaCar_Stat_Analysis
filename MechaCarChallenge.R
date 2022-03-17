@@ -26,7 +26,9 @@ sus_lot_summary <- suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean
 
 
 # Deliverable 3
-# Create t.test for PSI across all Manufacturing Lots
+# determine if the PSI across all manufacturing lots is 
+# statistically different from the population mean of 1,500 
+# pounds per square inch
 t.test(suspension$PSI, mu=mean(suspension$PSI))
 
 # Subset Manufacturing Lots
@@ -34,8 +36,9 @@ Lot1 = subset(suspension, Manufacturing_Lot == 'Lot1')
 Lot2 = subset(suspension, Manufacturing_Lot == 'Lot2')
 Lot3 = subset(suspension, Manufacturing_Lot == 'Lot3')
 
-# Create t.test for PSI across individual Manufacturing Lots
-t.test(Lot1$PSI, suspension$PSI)
-t.test(Lot2$PSI, suspension$PSI)
-t.test(Lot3$PSI, suspension$PSI)
-
+# determine if the PSI for each manufacturing lot is 
+# statistically different from the population mean of 1,500 
+# pounds per square inch
+t.test(Lot1$PSI, mu=mean(suspension$PSI))
+t.test(Lot2$PSI, mu=mean(suspension$PSI))
+t.test(Lot3$PSI, mu=mean(suspension$PSI))
