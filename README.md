@@ -21,7 +21,7 @@
 
 ## T-Tests on Suspension Coils
 
-- Looking at our t-test data for each lot, we have a very high confidence that the mean for Lots 1 and 2 is statistically the same as the population mean of 1500. As both of those p-values are less than 1%. Conversely, the higher p-value for Lot 3 says that it is more likely there is a statistical difference between its mean and the population mean.
+<p>Looking at our t-test data for each lot, we have a very high confidence that the mean for Lots 1 and 2 is statistically the same as the population mean of 1500. As both of those p-values are less than 1%. Conversely, the higher p-value for Lot 3 says that it is more likely there is a statistical difference between its mean and the population mean.</p>
 
 <img src="Images/ttest_alllots_1samp.png" width="426" />
 <img src="Images/ttest_eachlot_1samp.png" width="465" />
